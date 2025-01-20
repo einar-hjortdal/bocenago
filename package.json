@@ -5,7 +5,7 @@
 	"version": "3.0.0",
 	"private": true,
 	"publisher": "einar-hjortdal",
-	"icon": "https://www.vitatrentina.it/wp-content/uploads/2023/02/30Bocenago-Stemma-1.png",
+	"icon": "icon.png",
 	"galleryBanner": {
 		"color": "#1d2021",
 		"theme": "dark"
