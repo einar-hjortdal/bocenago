@@ -2,7 +2,7 @@
 	"name": "bocenago-themes",
 	"displayName": "Bocenago themes",
 	"description": "Themes inspired by Bocenago, a town in the Rendena valley of Italy.",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"private": true,
 	"publisher": "einar-hjortdal",
 	"icon": "icon.png",
@@ -24,14 +24,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Bocenago",
+				"label": "Bocenago: at dusk",
 				"uiTheme": "vs-dark",
-				"path": "./themes/bocenago.json"
+				"path": "./themes/bocenago-at-dusk.json"
 			},
 			{
-				"label": "Pradei",
+				"label": "Bocenago: Pradei",
 				"uiTheme": "vs-dark",
-				"path": "./themes/pradei.json"
+				"path": "./themes/bocenago-pradei.json"
 			}
 		]
 	}
