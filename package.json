@@ -1,0 +1,38 @@
+{
+	"name": "bocenago-themes",
+	"displayName": "Bocenago themes",
+	"description": "Themes inspired by Bocenago, a town in the Rendena valley of Italy.",
+	"version": "3.0.0",
+	"private": true,
+	"publisher": "einar-hjortdal",
+	"icon": "https://www.vitatrentina.it/wp-content/uploads/2023/02/30Bocenago-Stemma-1.png",
+	"galleryBanner": {
+		"color": "#1d2021",
+		"theme": "dark"
+	},
+	"homepage": "https://github.com/einar-hjortdal/Bocenago",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/einar-hjortdal/Bocenago"
+	},
+	"engines": {
+		"vscode": "^1.96.4"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Bocenago",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bocenago.json"
+			},
+			{
+				"label": "Pradei",
+				"uiTheme": "vs-dark",
+				"path": "./themes/pradei.json"
+			}
+		]
+	}
+}
