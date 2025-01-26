@@ -8,7 +8,7 @@
     "input.background": "#24211E",
     "input.placeholderForeground": "#B36B42",
     "inputOption.activeBorder": "#B36B42",
-    "inputValidation.errorForeground": "#fe8019",
+    "inputValidation.errorForeground": "#A5693B",
     "inputValidation.errorBackground": "#AC987D",
     "inputValidation.errorBorder": "#AC987D",
     "inputValidation.infoForeground": "#B36B42",
@@ -168,7 +168,7 @@
     "charts.purple": "#BB7844",
     "notebook.cellBorderColor": "#5F865F",
     "notebook.cellHoverBackground": "#665c5444",
-    "notebook.cellInsertionIndicator": "#fe8019",
+    "notebook.cellInsertionIndicator": "#A5693B",
     "notebook.cellStatusBarItemHoverBackground": "#665c5466",
     "notebook.cellToolbarSeparator": "#5F865F",
     "notebook.cellEditorBackground": "#24211E",
@@ -295,7 +295,7 @@
     {
       "scope": "meta.preprocessor",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -311,9 +311,27 @@
       }
     },
     {
-      "scope": "meta.header.diff",
+      "scope": "meta.diff.header.from-file",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
+      }
+    },
+    {
+      "scope": "meta.diff.header.to-file",
+      "settings": {
+        "foreground": "#A5693B"
+      }
+    },
+    {
+      "scope": "meta.diff.range.unified",
+      "settings": {
+        "foreground": "#C9A654"
+      }
+    },
+    {
+      "scope": "source.diff",
+      "settings": {
+        "foreground": "#AC987D"
       }
     },
     {
@@ -325,7 +343,7 @@
     {
       "scope": "storage.modifier",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -349,7 +367,7 @@
     {
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -421,7 +439,7 @@
     {
       "scope": "keyword.operator.new",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -433,7 +451,7 @@
     {
       "scope": "metatag.php",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -524,7 +542,7 @@
     {
       "scope": "support.function.builtin",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -659,13 +677,13 @@
     {
       "scope": "punctuation.definition.logical-expression",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
       "scope": "string.inperpolated.dollar.shell",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -725,14 +743,14 @@
       "scope": "markup.bold",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
       "scope": "markup.heading",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -756,7 +774,7 @@
     {
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -802,13 +820,13 @@
     {
       "scope": "punctuation.definition.quote.begin.markdown",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -856,7 +874,7 @@
     {
       "scope": "entity.other.attribute-name.css",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -868,7 +886,7 @@
     {
       "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
@@ -929,7 +947,7 @@
         "source.js variable.language"
       ],
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#A5693B"
       }
     },
     {
